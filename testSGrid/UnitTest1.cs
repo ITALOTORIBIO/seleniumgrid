@@ -45,14 +45,7 @@ public class Tests
             driver.FindElement(By.Name("q")).SendKeys("I Want to se this on a remote machine");
         }
  
-        [Test]
-        [Parallelizable]
-        public void OpenBingAndSearch()
-        {
-            driver.Navigate().GoToUrl("https://www.bing.com/");
-            driver.Manage().Window.Maximize();
-            driver.FindElement(By.Name("q")).SendKeys("I Want to seee this on a remote machine");
-        }
+        
  
         
 }
