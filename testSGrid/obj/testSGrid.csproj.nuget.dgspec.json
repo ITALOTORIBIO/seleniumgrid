@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/Documents/seleniumgrid/testSGrid/testSGrid.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj": {}
   },
   "projects": {
-    "/home/user/Documents/seleniumgrid/testSGrid/testSGrid.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/Documents/seleniumgrid/testSGrid/testSGrid.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj",
         "projectName": "testSGrid",
-        "projectPath": "/home/user/Documents/seleniumgrid/testSGrid/testSGrid.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/Documents/seleniumgrid/testSGrid/obj/",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,6 +67,10 @@
             "NUnit": {
               "target": "Package",
               "version": "[3.13.2, )"
+            },
+            "NUnit.Allure": {
+              "target": "Package",
+              "version": "[1.2.1.1, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
@@ -150,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
