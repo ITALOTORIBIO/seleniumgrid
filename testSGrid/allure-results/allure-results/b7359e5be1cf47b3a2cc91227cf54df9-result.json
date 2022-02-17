@@ -1,0 +1,106 @@
+{
+  "uuid": "1c3daff6-6628-4f0c-8f9b-f5b779251589-tr-0-1001",
+  "historyId": "testSGrid.Tests.OpenGoogleAndSearch",
+  "fullName": "testSGrid.Tests.OpenGoogleAndSearch",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-CIPI72G2"
+    },
+    {
+      "name": "package",
+      "value": "testSGrid"
+    },
+    {
+      "name": "testMethod",
+      "value": "OpenGoogleAndSearch"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "tag",
+      "value": "SampleTag"
+    },
+    {
+      "name": "tag",
+      "value": "NUnit"
+    },
+    {
+      "name": "tag",
+      "value": "Debug"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "feature",
+      "value": "Core"
+    }
+  ],
+  "links": [],
+  "name": "OpenGoogleAndSearch",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenGoogleAndSearch",
+    "trace": "   at testSGrid.Tests.<>c.<OpenGoogleAndSearch>b__9_0() in C:\\Users\\Usuario\\.jenkins\\workspace\\Docker_Test\\testSGrid\\UnitTest1.cs:line 61\r\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\r\n   at testSGrid.Tests.OpenGoogleAndSearch() in C:\\Users\\Usuario\\.jenkins\\workspace\\Docker_Test\\testSGrid\\UnitTest1.cs:line 59\r\n"
+  },
+  "stage": "finished",
+  "description": "Test1\n",
+  "steps": [
+    {
+      "name": "OpenGoogleAndSearch",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "",
+        "trace": "   at testSGrid.Tests.<>c.<OpenGoogleAndSearch>b__9_0() in C:\\Users\\Usuario\\.jenkins\\workspace\\Docker_Test\\testSGrid\\UnitTest1.cs:line 61\r\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)\r\n   at testSGrid.Tests.OpenGoogleAndSearch() in C:\\Users\\Usuario\\.jenkins\\workspace\\Docker_Test\\testSGrid\\UnitTest1.cs:line 59\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Google Search",
+          "status": "broken",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "",
+            "trace": "   at NUnit.Framework.Assert.Pass(String message, Object[] args)\r\n   at NUnit.Framework.Assert.Pass()\r\n   at testSGrid.Tests.<>c.<OpenGoogleAndSearch>b__9_0() in C:\\Users\\Usuario\\.jenkins\\workspace\\Docker_Test\\testSGrid\\UnitTest1.cs:line 61\r\n   at NUnit.Allure.Core.AllureExtensions.WrapInStep(AllureLifecycle lifecycle, Action action, String stepName, String callerName)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1645120405167,
+          "stop": 1645120405202
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "fe7b75a0669b4732a0bb7b5d5961b764-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1645120398129,
+      "stop": 1645120405446
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1645120398128,
+  "stop": 1645120405454
+}
