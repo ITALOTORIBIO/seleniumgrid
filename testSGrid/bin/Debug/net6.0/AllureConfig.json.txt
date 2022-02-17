@@ -1,0 +1,15 @@
+{
+  "allure": {
+    "directory": "C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\allure-results",
+    "links":  
+    [
+      "https://example.org/{link}",
+      "https://example.org/{issue}",
+      "https://example.org/{tms}"
+    ],
+	"brokenTestData": [	
+		"System.Exception"
+
+	]
+  }
+}
