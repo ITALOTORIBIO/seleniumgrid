@@ -289,3 +289,7 @@ C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\obj\Debug\net6.0\testSGri
 C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\obj\Debug\net6.0\ref\testSGrid.dll
 C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\obj\Debug\net6.0\testSGrid.pdb
 C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\obj\Debug\net6.0\testSGrid.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\bin\Debug\net6.0\Allure.Commons.dll
+C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\bin\Debug\net6.0\AspectInjector.Broker.dll
+C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\bin\Debug\net6.0\MimeTypesMap.dll
+C:\Users\Usuario\Desktop\Docker\seleniumgrid\testSGrid\bin\Debug\net6.0\NUnit.Allure.dll

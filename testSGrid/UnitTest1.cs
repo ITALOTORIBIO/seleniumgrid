@@ -54,11 +54,11 @@ public class Tests
     {
         driver.Navigate().GoToUrl("https://www.google.com");
         driver.Manage().Window.Maximize();
-        driver.FindElement(By.Name("q")).SendKeys("I Want to see this on a remote machine");
+        driver.FindElement(By.Name("q")).SendKeys("I Want to se this on a remote machine");
         string text = driver.FindElement(By.XPath("//a[@class='spell_orig']")).Text;
         AllureLifecycle.Instance.WrapInStep(() =>
         {
-            Assert.Equals("I Want to see this on a remote machine", text);
+            Assert.Equals("I Want to se this on a remote machine", text);
         }, "Google Search");
     }
 
