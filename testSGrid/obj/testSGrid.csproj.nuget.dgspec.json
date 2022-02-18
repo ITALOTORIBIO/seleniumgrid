@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj": {}
+    "C:\\Users\\italo\\OneDrive\\Documents\\seleniumgrid\\testSGrid\\testSGrid.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj": {
+    "C:\\Users\\italo\\OneDrive\\Documents\\seleniumgrid\\testSGrid\\testSGrid.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj",
+        "projectUniqueName": "C:\\Users\\italo\\OneDrive\\Documents\\seleniumgrid\\testSGrid\\testSGrid.csproj",
         "projectName": "testSGrid",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\obj\\",
+        "projectPath": "C:\\Users\\italo\\OneDrive\\Documents\\seleniumgrid\\testSGrid\\testSGrid.csproj",
+        "packagesPath": "C:\\Users\\italo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\italo\\OneDrive\\Documents\\seleniumgrid\\testSGrid\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\italo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,10 +67,6 @@
             "NUnit": {
               "target": "Package",
               "version": "[3.13.2, )"
-            },
-            "NUnit.Allure": {
-              "target": "Package",
-              "version": "[1.2.1.1, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
