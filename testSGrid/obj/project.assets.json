@@ -3522,26 +3522,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj",
+      "projectUniqueName": "D:\\Repos\\seleniumgrid\\testSGrid\\testSGrid.csproj",
       "projectName": "testSGrid",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\testSGrid.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Docker\\seleniumgrid\\testSGrid\\obj\\",
+      "projectPath": "D:\\Repos\\seleniumgrid\\testSGrid\\testSGrid.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\seleniumgrid\\testSGrid\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3676,7 +3674,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -3685,7 +3683,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Se detectó una versión del paquete fuera de la restricción de dependencia: Microsoft.Edge.SeleniumTools 3.141.3 requiere Selenium.WebDriver (= 3.141.0), pero la versión Selenium.WebDriver 4.1.0 ya se resolvió.",
+      "message": "Detected package version outside of dependency constraint: Microsoft.Edge.SeleniumTools 3.141.3 requires Selenium.WebDriver (= 3.141.0) but version Selenium.WebDriver 4.1.0 was resolved.",
       "libraryId": "Selenium.WebDriver",
       "targetGraphs": [
         "net6.0"
